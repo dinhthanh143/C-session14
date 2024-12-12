@@ -14,7 +14,9 @@ for(i=0;i<size;i++){
 		count++;
 	}
 }
-
+if (string[i-2]==temp[0]&& string[i]!=temp[0]){
+		count--;
+	}
 
 printf("co %d tu trong chuoi", count-1);
 
